@@ -1,12 +1,12 @@
-# revision 21264
+# revision 27044
 # category Package
 # catalog-ctan /macros/latex/contrib/ytableau
-# catalog-date 2011-02-01 18:07:03 +0100
+# catalog-date 2012-06-20 07:49:06 +0200
 # catalog-license lppl1.2
-# catalog-version 1.1
+# catalog-version 1.2
 Name:		texlive-ytableau
-Version:	1.1
-Release:	2
+Version:	1.2
+Release:	1
 Summary:	Many-featured Young tableaux and Young diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ytableau
@@ -23,7 +23,8 @@ Requires(post):	texlive-kpathsea
 The package provides several functions for drawing Young
 tableaux and Young diagrams, extending the young and youngtab
 packages but providing lots more features. Skew and coloured
-tableaux are easy, and keyval-syntax configuration is provided.
+tableaux are easy, and pgfkeys-enabled options are provided
+both at package load and configurably.
 
 %post
     %{_sbindir}/texlive.post
