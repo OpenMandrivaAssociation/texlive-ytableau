@@ -1,11 +1,11 @@
-# revision 27044
+# revision 27430
 # category Package
 # catalog-ctan /macros/latex/contrib/ytableau
-# catalog-date 2012-06-20 07:49:06 +0200
+# catalog-date 2012-08-16 12:45:33 +0200
 # catalog-license lppl1.2
-# catalog-version 1.2
+# catalog-version 1.3
 Name:		texlive-ytableau
-Version:	1.2
+Version:	1.3
 Release:	1
 Summary:	Many-featured Young tableaux and Young diagrams
 Group:		Publishing
@@ -52,20 +52,3 @@ both at package load and configurably.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.2-1
-+ Revision: 813204
-- Update to latest release.
-
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1-2
-+ Revision: 757778
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.1-1
-+ Revision: 719969
-- texlive-ytableau
-- texlive-ytableau
-- texlive-ytableau
-
