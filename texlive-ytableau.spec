@@ -6,7 +6,7 @@
 # catalog-version 1.3
 Name:		texlive-ytableau
 Version:	1.3
-Release:	3
+Release:	4
 Summary:	Many-featured Young tableaux and Young diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ytableau
