@@ -1,19 +1,13 @@
-# revision 27430
-# category Package
-# catalog-ctan /macros/latex/contrib/ytableau
-# catalog-date 2012-08-16 12:45:33 +0200
-# catalog-license lppl1.2
-# catalog-version 1.3
 Name:		texlive-ytableau
-Version:	1.3
-Release:	10
+Version:	59580
+Release:	1
 Summary:	Many-featured Young tableaux and Young diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ytableau
 License:	LPPL1.2
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ytableau.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ytableau.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ytableau.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ytableau.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ytableau.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ytableau.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -27,12 +21,12 @@ tableaux are easy, and pgfkeys-enabled options are provided
 both at package load and configurably.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -45,7 +39,8 @@ both at package load and configurably.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
