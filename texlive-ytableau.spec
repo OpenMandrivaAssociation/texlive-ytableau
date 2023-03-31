@@ -1,6 +1,6 @@
 Name:		texlive-ytableau
 Version:	59580
-Release:	1
+Release:	2
 Summary:	Many-featured Young tableaux and Young diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ytableau
