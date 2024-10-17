@@ -3,7 +3,7 @@ Version:	59580
 Release:	2
 Summary:	Many-featured Young tableaux and Young diagrams
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ytableau
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ytableau
 License:	LPPL1.2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ytableau.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ytableau.doc.r%{version}.tar.xz
